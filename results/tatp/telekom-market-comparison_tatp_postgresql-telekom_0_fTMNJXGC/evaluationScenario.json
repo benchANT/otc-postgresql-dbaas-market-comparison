@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "userId": "35c6b008-4cb0-45f4-ba10-94cb9e60d9bc",
+    "projectId": "e018d191-ac6f-4394-9788-1cf77ed7e70b",
+    "batchId": "tatp",
+    "configurationId": "otc-postgresql",
+    "configurationLabel": "otc-postgresql",
+    "executions": 1,
+    "executionCounter": 1
+  },
+  "resourceProvider": {
+    "name": "TELEKOM",
+    "api": "OPENSTACK"
+  },
+  "dbaasProvider": {
+    "name": "TELEKOM",
+    "api": "OTCRDS"
+  },
+  "dbmsDeployment": {
+    "dbmsType": "POSTGRESQL",
+    "operationType": "DBAAS",
+    "version": "14",
+    "DBAAS": {
+      "costs": {
+         "storageCosts": 0.0,
+        "vmCosts": 1332.5
+      },
+      "telekomRdsInstance": {
+        "region": "eu-de",
+        "availabilityZone": "eu-de-02",
+        "flavor": "rds.pg.s1.4xlarge",
+        "volumeSize": 500,
+        "volumeType": "ULTRAHIGH",
+		"usePublicIp": true,
+          "ipBandwidth": 50
+      }
+    }
+  },
+  "benchmarkDeployment": {
+    "benchmarkNodes": {
+      "numberOfNodes": 1,
+      "resource": {
+        "openstackVm": {
+          "regionName": "eu-de",
+          "availabilityZone": "eu-de-02",
+          "image": "Standard_Ubuntu_20.04_latest",
+          "flavor": "s3.4xlarge.2",
+          "volumeSize": 50,
+          "volumeType": "SATA"
+        }
+      }
+    }
+  },
+  "benchmark": {
+    "id": "tatp",
+    "distribution": "BENCHBASETATP",
+    "version": "master",
+    "benchbaseTATP": {
+      "executeLoadPhase": true,
+      "executeRunPhase": true,
+      "dbmsEndpoints": [],
+      "workload": {
+        "workloadPhase": "LOAD",
+        "runtime": 1800,
+        "terminals": 140,
+        "intervalMonitor": 1000,
+        "sample": 40,
+        "isolation": "TRANSACTION_SERIALIZABLE",
+        "batchSize": 1024,
+        "scaleFactor": 50.0,
+        "loaderThreads": 32
+      }
+    }
+  }
+}

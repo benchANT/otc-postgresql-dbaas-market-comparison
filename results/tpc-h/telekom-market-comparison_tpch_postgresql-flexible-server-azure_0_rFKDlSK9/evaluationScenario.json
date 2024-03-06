@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "userId": "35c6b008-4cb0-45f4-ba10-94cb9e60d9bc",
+    "projectId": "0ec538c1-b2b9-46d2-a60a-ef18a3dc5e3b",
+    "batchId": "tpch",
+    "configurationId": "azure-flexible-server",
+    "configurationLabel": "azure-flexible-server",
+    "executions": 2,
+    "executionCounter": 1
+  },
+  "resourceProvider": {
+    "name": "AZURE",
+    "api": "AZURE"
+  },
+  "dbaasProvider": {
+    "name": "AZUREPOSTGRESQL",
+    "api": "AZUREPOSTGRESQL"
+  },
+  "dbmsDeployment": {
+    "dbmsType": "POSTGRESQL",
+    "operationType": "DBAAS",
+    "version": "14",
+    "DBAAS": {
+      "costs": {
+        "storageCosts": 0.0,
+        "vmCosts": 1166.54
+      },
+      "azurePostgresqlInstance": {
+        "region": "northeurope",
+        "skuName": "Standard_D16ds_v5",
+        "skuTier": "GeneralPurpose",
+        "storageSize": 512,
+        "highAvailability": "Disabled"
+      }
+    }
+  },
+  "benchmarkDeployment": {
+    "benchmarkNodes": {
+      "numberOfNodes": 1,
+      "resource": {
+        "azureVm": {
+          "region": "northeurope",
+          "availabilityZone": 1,
+          "imagePublisher": "Canonical",
+          "imageOffer": "0001-com-ubuntu-server-focal",
+          "imageSku": "20_04-lts",
+          "vmSize": "Standard_D16s_v4",
+          "diskType": "Standard_LRS",
+          "diskSize": 50
+        }
+      }
+    }
+  },
+  "benchmark": {
+    "id": "tpc-h",
+    "distribution": "BENCHBASETPCH",
+    "version": "master",
+    "benchbaseTPCH": {
+      "executeLoadPhase": true,
+      "executeRunPhase": true,
+      "dbmsEndpoints": [],
+      "workload": {
+        "workloadPhase": "LOAD",
+        "runtime": 1800,
+        "terminals": 10,
+        "intervalMonitor": 1000,
+        "sample": 10,
+        "isolation": "TRANSACTION_SERIALIZABLE",
+        "batchSize": 102400,
+        "scaleFactor": 5.0
+      }
+    }
+  }
+}

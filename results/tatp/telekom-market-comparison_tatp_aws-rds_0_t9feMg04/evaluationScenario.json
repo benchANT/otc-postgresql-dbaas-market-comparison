@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "userId": "35c6b008-4cb0-45f4-ba10-94cb9e60d9bc",
+    "projectId": "e018d191-ac6f-4394-9788-1cf77ed7e70b",
+    "batchId": "tatp",
+    "configurationId": "aws-rds",
+    "configurationLabel": "aws-rds",
+    "executions": 1,
+    "executionCounter": 1
+  },
+  "resourceProvider": {
+    "name": "EC2",
+    "api": "EC2"
+  },
+  "dbaasProvider": {
+    "name": "AWS",
+    "api": "AWSRDS"
+  },
+  "dbmsDeployment": {
+    "dbmsType": "POSTGRESQL",
+    "operationType": "DBAAS",
+    "version": "14.7",
+    "DBAAS": {
+      "costs": {
+        "storageCosts": 0.0,
+        "vmCosts": 1209.8
+      },
+      "awsRdsInstance": {
+        "region": "eu-central-1",
+        "instanceType": "db.m5.4xlarge",
+        "storageType": "GP3",
+        "storageSize": 500,
+        "storageThroughput": 500,
+        "multiAz": false,
+        "iops": 12000
+      }
+    }
+  },
+  "benchmarkDeployment": {
+    "benchmarkNodes": {
+      "numberOfNodes": 1,
+      "resource": {
+        "ec2Vm": {
+          "regionName": "eu-central-1",
+          "instanceType": "c5.4xlarge",
+          "architecture": "x86_64",
+          "imageDistribution": "ubuntu",
+          "imageVersion": "20.04",
+          "volumeType": "GP2",
+          "volumeSize": 30,
+          "iops": 100
+        }
+      }
+    }
+  },
+  "benchmark": {
+    "id": "tatp",
+    "distribution": "BENCHBASETATP",
+    "version": "master",
+    "benchbaseTATP": {
+      "executeLoadPhase": true,
+      "executeRunPhase": true,
+      "dbmsEndpoints": [],
+      "workload": {
+        "workloadPhase": "LOAD",
+        "runtime": 1800,
+        "terminals": 140,
+        "intervalMonitor": 1000,
+        "sample": 40,
+        "isolation": "TRANSACTION_SERIALIZABLE",
+        "batchSize": 1024,
+        "scaleFactor": 50.0,
+        "loaderThreads": 32
+      }
+    }
+  }
+}

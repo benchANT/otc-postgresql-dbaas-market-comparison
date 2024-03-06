@@ -1,0 +1,23 @@
+/binary/jdk-17/bin/java -jar /binary/benchbase/postgresql/benchbase.jar -c /binary/benchbase/postgresql/config/postgres/sample_tpch_config.xml -b tpch --load=true --create=true --sample 10 --interval-monitor 1000 --directory /home/developer/results
+[INFO ] 2023-05-24 02:44:13,606 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+
+Benchmark:              TPCH {com.oltpbenchmark.benchmarks.tpch.TPCHBenchmark}
+Configuration:          /binary/benchbase/postgresql/config/postgres/sample_tpch_config.xml
+Type:                   POSTGRES
+Driver:                 org.postgresql.Driver
+URL:                    jdbc:postgresql://benchant-rds-postgresql-78b923ea-c9e5-5a5a-965c-f74c02f93db1.cawy0mrifex0.eu-central-1.rds.amazonaws.com:5432/benchdb?sslmode=disable&ApplicationName=tpch&reWriteBatchedInserts=true
+Isolation:              TRANSACTION_SERIALIZABLE
+Batch Size:             102400
+Scale Factor:           5.0
+Terminals:              10
+New Connection Per Txn: false
+
+[INFO ] 2023-05-24 02:44:13,607 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+[WARN ] 2023-05-24 02:44:13,642 [main]  com.oltpbenchmark.DBWorkload main - rounded weight [22] does not equal 100.  Original weight is [22.0]
+[INFO ] 2023-05-24 02:44:13,645 [main]  com.oltpbenchmark.DBWorkload main - Creating new TPCH database...
+[INFO ] 2023-05-24 02:44:13,952 [main]  com.oltpbenchmark.DBWorkload main - Finished creating new TPCH database...
+[INFO ] 2023-05-24 02:44:14,100 [main]  com.oltpbenchmark.DBWorkload main - Loading data into TPCH database...
+[INFO ] 2023-05-24 02:44:14,104 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Creating a Thread Pool with a size of 8 to run 8 Loader Threads.  0 threads will be queued.
+[INFO ] 2023-05-24 04:43:24,287 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Finished executing 8 Loader Threads [time=7150.18s]
+[INFO ] 2023-05-24 04:43:24,287 [main]  com.oltpbenchmark.DBWorkload main - Finished loading data into TPCH database...
+[INFO ] 2023-05-24 04:43:24,287 [main]  com.oltpbenchmark.DBWorkload main - Skipping benchmark workload execution

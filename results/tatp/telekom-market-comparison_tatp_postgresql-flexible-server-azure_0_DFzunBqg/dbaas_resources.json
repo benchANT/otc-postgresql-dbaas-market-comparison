@@ -1,0 +1,67 @@
+{
+  "administratorLogin": "benchant",
+  "administratorLoginPassword": null,
+  "authConfig": {
+    "activeDirectoryAuth": "Disabled",
+    "passwordAuth": "Enabled",
+    "tenantId": null
+  },
+  "availabilityZone": "1",
+  "backup": {
+    "backupRetentionDays": 7,
+    "earliestRestoreDate": "2023-06-06T15:17:36.818937+00:00",
+    "geoRedundantBackup": "Disabled"
+  },
+  "createMode": null,
+  "dataEncryption": {
+    "primaryKeyUri": null,
+    "primaryUserAssignedIdentityId": null,
+    "type": "SystemManaged"
+  },
+  "fullyQualifiedDomainName": "benchant-93e34bae-8d5c-544a-8492-d1b7854d4b4a.postgres.database.azure.com",
+  "highAvailability": {
+    "mode": "Disabled",
+    "standbyAvailabilityZone": null,
+    "state": "NotEnabled"
+  },
+  "id": "/subscriptions/efe74006-e471-499d-8227-c960e80cd7fe/resourceGroups/benchANT-northeurope/providers/Microsoft.DBforPostgreSQL/flexibleServers/benchant-93e34bae-8d5c-544a-8492-d1b7854d4b4a",
+  "identity": null,
+  "location": "North Europe",
+  "maintenanceWindow": {
+    "customWindow": "Disabled",
+    "dayOfWeek": 0,
+    "startHour": 0,
+    "startMinute": 0
+  },
+  "minorVersion": "7",
+  "name": "benchant-93e34bae-8d5c-544a-8492-d1b7854d4b4a",
+  "network": {
+    "delegatedSubnetResourceId": null,
+    "privateDnsZoneArmResourceId": null,
+    "publicNetworkAccess": "Enabled"
+  },
+  "pointInTimeUtc": null,
+  "replicaCapacity": 5,
+  "replicationRole": "Primary",
+  "resourceGroup": "benchANT-northeurope",
+  "sku": {
+    "name": "Standard_D16ds_v5",
+    "tier": "GeneralPurpose"
+  },
+  "sourceServerResourceId": null,
+  "state": "Ready",
+  "storage": {
+    "storageSizeGb": 512
+  },
+  "systemData": {
+    "createdAt": "2023-06-06T15:14:01.293922+00:00",
+    "createdBy": null,
+    "createdByType": null,
+    "lastModifiedAt": null,
+    "lastModifiedBy": null,
+    "lastModifiedByType": null
+  },
+  "tags": null,
+  "type": "Microsoft.DBforPostgreSQL/flexibleServers",
+  "version": "14"
+}

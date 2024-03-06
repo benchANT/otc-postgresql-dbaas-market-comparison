@@ -1,0 +1,22 @@
+/binary/jdk-17/bin/java -jar /binary/benchbase/postgresql/benchbase.jar -c /binary/benchbase/postgresql/config/postgres/sample_tatp_config.xml -b tatp --load=true --create=true --sample 40 --interval-monitor 1000 --directory /home/developer/results
+[INFO ] 2023-06-06 21:32:11,401 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+
+Benchmark:              TATP {com.oltpbenchmark.benchmarks.tatp.TATPBenchmark}
+Configuration:          /binary/benchbase/postgresql/config/postgres/sample_tatp_config.xml
+Type:                   POSTGRES
+Driver:                 org.postgresql.Driver
+URL:                    jdbc:postgresql://80.158.21.132:5432/postgres?sslmode=disable&ApplicationName=tatp&reWriteBatchedInserts=true
+Isolation:              TRANSACTION_SERIALIZABLE
+Batch Size:             1024
+Scale Factor:           50.0
+Terminals:              140
+New Connection Per Txn: false
+
+[INFO ] 2023-06-06 21:32:11,402 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+[INFO ] 2023-06-06 21:32:11,430 [main]  com.oltpbenchmark.DBWorkload main - Creating new TATP database...
+[INFO ] 2023-06-06 21:32:11,672 [main]  com.oltpbenchmark.DBWorkload main - Finished creating new TATP database...
+[INFO ] 2023-06-06 21:32:11,787 [main]  com.oltpbenchmark.DBWorkload main - Loading data into TATP database...
+[INFO ] 2023-06-06 21:32:11,790 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Creating a Thread Pool with a size of 32 to run 34 Loader Threads.  2 threads will be queued.
+[INFO ] 2023-06-06 21:41:31,982 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Finished executing 34 Loader Threads [time=560.19s]
+[INFO ] 2023-06-06 21:41:31,982 [main]  com.oltpbenchmark.DBWorkload main - Finished loading data into TATP database...
+[INFO ] 2023-06-06 21:41:31,983 [main]  com.oltpbenchmark.DBWorkload main - Skipping benchmark workload execution

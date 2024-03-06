@@ -1,0 +1,22 @@
+/binary/jdk-17/bin/java -jar /binary/benchbase/postgresql/benchbase.jar -c /binary/benchbase/postgresql/config/postgres/sample_tatp_config.xml -b tatp --load=true --create=true --sample 40 --interval-monitor 1000 --directory /home/developer/results
+[INFO ] 2023-06-06 15:21:11,266 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+
+Benchmark:              TATP {com.oltpbenchmark.benchmarks.tatp.TATPBenchmark}
+Configuration:          /binary/benchbase/postgresql/config/postgres/sample_tatp_config.xml
+Type:                   POSTGRES
+Driver:                 org.postgresql.Driver
+URL:                    jdbc:postgresql://benchant-93e34bae-8d5c-544a-8492-d1b7854d4b4a.postgres.database.azure.com:5432/benchdb?sslmode=allow&ApplicationName=tatp&reWriteBatchedInserts=true
+Isolation:              TRANSACTION_SERIALIZABLE
+Batch Size:             1024
+Scale Factor:           50.0
+Terminals:              140
+New Connection Per Txn: false
+
+[INFO ] 2023-06-06 15:21:11,267 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+[INFO ] 2023-06-06 15:21:11,291 [main]  com.oltpbenchmark.DBWorkload main - Creating new TATP database...
+[INFO ] 2023-06-06 15:21:11,712 [main]  com.oltpbenchmark.DBWorkload main - Finished creating new TATP database...
+[INFO ] 2023-06-06 15:21:11,804 [main]  com.oltpbenchmark.DBWorkload main - Loading data into TATP database...
+[INFO ] 2023-06-06 15:21:11,806 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Creating a Thread Pool with a size of 32 to run 34 Loader Threads.  2 threads will be queued.
+[INFO ] 2023-06-06 15:31:03,552 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Finished executing 34 Loader Threads [time=591.74s]
+[INFO ] 2023-06-06 15:31:03,553 [main]  com.oltpbenchmark.DBWorkload main - Finished loading data into TATP database...
+[INFO ] 2023-06-06 15:31:03,553 [main]  com.oltpbenchmark.DBWorkload main - Skipping benchmark workload execution

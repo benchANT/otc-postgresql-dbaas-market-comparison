@@ -1,0 +1,63 @@
+{
+    "alias": "",
+    "associated_with_ddm": false,
+    "backup_strategy": {
+        "keep_days": 7,
+        "start_time": "20:00-21:00"
+    },
+    "bpDomainId": "",
+    "bpType": "Default",
+    "charge_info": {
+        "charge_mode": "postPaid"
+    },
+    "cpu": "16",
+    "created": "2023-06-06T21:28:05+0000",
+    "datastore": {
+        "complete_version": "14.6.0",
+        "type": "PostgreSQL",
+        "version": "14"
+    },
+    "db_user_name": "root",
+    "disk_encryption_id": "",
+    "enable_ssl": true,
+    "enterprise_project_id": "0",
+    "flavor_ref": "rds.pg.s1.4xlarge",
+    "ha": {},
+    "id": "a5c4cc7f44764980bc3527812be991cbin03",
+    "maintenance_window": "18:00-22:00",
+    "mem": "64",
+    "name": "benchant-POSTGRESQL-6503171",
+    "nodes": [
+        {
+            "availability_zone": "eu-de-02",
+            "id": "2e1a4e6492964bd29847115659355bb6no03",
+            "name": "benchant-POSTGRESQL-6503171_node0",
+            "role": "master",
+            "status": "ACTIVE"
+        }
+    ],
+    "order_id": "",
+    "port": 5432,
+    "private_dns_names": [],
+    "private_ips": [
+        "10.0.196.72"
+    ],
+    "public_ips": [
+        "80.158.21.132"
+    ],
+    "region": "eu-de",
+    "related_instance": [],
+    "security_group_id": "0379f10d-7a34-4b61-a1e0-03cbd373de60",
+    "status": "ACTIVE",
+    "subnet_id": "67077d8e-3e53-4770-b029-267a796007f4",
+    "switch_strategy": "",
+    "tags": [],
+    "time_zone": "UTC",
+    "type": "Single",
+    "updated": "2023-06-06T21:28:05+0000",
+    "volume": {
+        "size": 500,
+        "type": "ULTRAHIGH"
+    },
+    "vpc_id": "c6915f37-81c1-49b2-915e-27f89faf2d3c"
+}

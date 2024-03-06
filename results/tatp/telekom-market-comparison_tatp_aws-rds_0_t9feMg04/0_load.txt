@@ -1,0 +1,22 @@
+/binary/jdk-17/bin/java -jar /binary/benchbase/postgresql/benchbase.jar -c /binary/benchbase/postgresql/config/postgres/sample_tatp_config.xml -b tatp --load=true --create=true --sample 40 --interval-monitor 1000 --directory /home/developer/results
+[INFO ] 2023-06-06 08:21:09,215 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+
+Benchmark:              TATP {com.oltpbenchmark.benchmarks.tatp.TATPBenchmark}
+Configuration:          /binary/benchbase/postgresql/config/postgres/sample_tatp_config.xml
+Type:                   POSTGRES
+Driver:                 org.postgresql.Driver
+URL:                    jdbc:postgresql://benchant-rds-postgresql-36c15b2a-f5fd-5525-8d46-859818fe59b7.cawy0mrifex0.eu-central-1.rds.amazonaws.com:5432/postgres?sslmode=disable&ApplicationName=tatp&reWriteBatchedInserts=true
+Isolation:              TRANSACTION_SERIALIZABLE
+Batch Size:             1024
+Scale Factor:           50.0
+Terminals:              140
+New Connection Per Txn: false
+
+[INFO ] 2023-06-06 08:21:09,216 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+[INFO ] 2023-06-06 08:21:09,237 [main]  com.oltpbenchmark.DBWorkload main - Creating new TATP database...
+[INFO ] 2023-06-06 08:21:09,434 [main]  com.oltpbenchmark.DBWorkload main - Finished creating new TATP database...
+[INFO ] 2023-06-06 08:21:09,523 [main]  com.oltpbenchmark.DBWorkload main - Loading data into TATP database...
+[INFO ] 2023-06-06 08:21:09,525 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Creating a Thread Pool with a size of 32 to run 34 Loader Threads.  2 threads will be queued.
+[INFO ] 2023-06-06 08:28:54,718 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Finished executing 34 Loader Threads [time=465.19s]
+[INFO ] 2023-06-06 08:28:54,718 [main]  com.oltpbenchmark.DBWorkload main - Finished loading data into TATP database...
+[INFO ] 2023-06-06 08:28:54,718 [main]  com.oltpbenchmark.DBWorkload main - Skipping benchmark workload execution

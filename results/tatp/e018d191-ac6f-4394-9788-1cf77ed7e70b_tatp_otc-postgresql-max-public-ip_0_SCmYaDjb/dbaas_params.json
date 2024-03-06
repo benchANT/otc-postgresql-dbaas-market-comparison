@@ -1,0 +1,1104 @@
+{
+    "cache_control": "no-cache, no-store, must-revalidate",
+    "changed": false,
+    "connection": "close",
+    "content_length": "19645",
+    "content_type": "application/json; charset=UTF-8",
+    "cookies": {
+        "CLOUDWAFSESID": "b9ac47cb4d5a935b9e",
+        "CLOUDWAFSESTIME": "1688721050573"
+    },
+    "cookies_string": "CLOUDWAFSESID=b9ac47cb4d5a935b9e; CLOUDWAFSESTIME=1688721050573",
+    "date": "Fri, 07 Jul 2023 09:10:52 GMT",
+    "elapsed": 0,
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "failed": false,
+    "json": {
+        "token": {
+            "catalog": [
+                {
+                    "endpoints": [
+                        {
+                            "id": "af310f1928e94df081c70681f7bd0c99",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://vpc.eu-de.otc.t-systems.com"
+                        }
+                    ],
+                    "id": "17d89ac272864e5db017ace42ec33514",
+                    "name": "neutron",
+                    "type": "network"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "811aa7c15cdd483589aca2e27c5fa197",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dli.eu-de.otc.t-systems.com/v1.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "a981043bef7a4de290f6f2ebbd6b69f5",
+                    "name": "dli",
+                    "type": "dli"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "c0a6b625bc3c4c42ae4d838fc11dffed",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://sfs-turbo.eu-de.otc.t-systems.com/v1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "b0b9bcb69d934af3a52a98be62246336",
+                    "name": "sfsturbo",
+                    "type": "sfsturbo"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "2c0e741daaf04df382e980ffe2320da4",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://cts.eu-de.otc.t-systems.com/v3/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "c6a41bf7e7ba4472975ef7f88e1436d0",
+                    "name": "ctsv3",
+                    "type": "ctsv3"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "0d609c98057241a99f23c7b89560f146",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://cdm.eu-de.otc.t-systems.com/v1.1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "c97d536318dd43138cd76704e1b05891",
+                    "name": "dataarts",
+                    "type": "dataarts"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "6f782d76e02c40a4acdfb80192919511",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://evs.eu-de.otc.t-systems.com/v3/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "01ddc5a9916c45c2b6f46dc604848cb7",
+                    "name": "cinderv3",
+                    "type": "volumev3"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "2e6291b553f949aa96a5ac35ec42715c",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dis.eu-de.otc.t-systems.com"
+                        }
+                    ],
+                    "id": "a98d684c000c429c8587ecb106ab9c81",
+                    "name": "Data Ingestion Service",
+                    "type": "dis"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "727ba225c9c64e888407370cbbd44501",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://sdrs.eu-de.otc.t-systems.com/v1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "e910f1ad6491403ea2ed913732b0e248",
+                    "name": "sdrs",
+                    "type": "sdrs"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "eb87e634084d48bb9f595b243dd4ac31",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://sfs.eu-de.otc.t-systems.com/v2/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "3866a5dcc1914e9ca1d264e81e9558c6",
+                    "name": "sfs",
+                    "type": "share"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "1d6167579e084e40bd9f53b74e06adfe",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://csbs.eu-de.otc.t-systems.com/v1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "7e0d2f600d55430fa0a26e17d0f242ee",
+                    "name": "karbor",
+                    "type": "data-protect"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "6e1fda48a2964b95af4cd0ba94f79c14",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dcs.eu-de.otc.t-systems.com/v1.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "e50ef60d77d241b1831451efcc4b9c53",
+                    "name": "dcsv1",
+                    "type": "dcsv1"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "040ef992594245a7808e3d5092a15b63",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://antiddos.eu-de.otc.t-systems.com/v1/"
+                        }
+                    ],
+                    "id": "8d3cfc79bd02415ca1456f4efb2d679e",
+                    "name": "antiddos",
+                    "type": "Anti-DDoS"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "c00eb9d4f7a343f3805b10cc00dcb93c",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://ecs.eu-de.otc.t-systems.com/v1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "5e92eb2502a346888ef4701929731729",
+                    "name": "ecs",
+                    "type": "ecs"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "6901947715a94dd48e961443f937637c",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dcs.eu-de.otc.t-systems.com/v1.0/"
+                        }
+                    ],
+                    "id": "b68904da4654407fa2fe80ebb1517ba1",
+                    "name": "Distributed Cache Service",
+                    "type": "dcs"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "f450c790f79e45e9a8c884f1d8980476",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dws.eu-de.otc.t-systems.com/v1.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "4d2c0faebed04ebfa2c27299025da75f",
+                    "name": "dwsv1",
+                    "type": "dwsv1"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "1360c0dc80654c5790c1b6d210f34746",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://ims.eu-de.otc.t-systems.com"
+                        }
+                    ],
+                    "id": "90095f474f054b4ba6e029bc398ccb59",
+                    "name": "glance",
+                    "type": "image"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "6fdfaa131aa34627a253aa98791c54ed",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://nat.eu-de.otc.t-systems.com/v2.0"
+                        }
+                    ],
+                    "id": "26bd550cd8ab4b179465430a578e7f6f",
+                    "name": "nat",
+                    "type": "nat"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "38e7fe13f23b46c6803c901422a015fd",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dds.eu-de.otc.t-systems.com/v3/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "9639a8dd395b491181d9972863b2ea10",
+                    "name": "ddsv3",
+                    "type": "ddsv3"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "2d0ec9691e104c84961801451a9843c5",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://cce.eu-de.otc.t-systems.com/api/v1"
+                        }
+                    ],
+                    "id": "0a07d1952689433094703fb067377789",
+                    "name": "containerengine",
+                    "type": "cce"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "1f4fd5a285784a958c05c011829b4ef9",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://elb.eu-de.otc.t-systems.com/v3/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "77fd11218ff64302b4b3d1dd2e8dc2f7",
+                    "name": "elbv3",
+                    "type": "elbv3"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "ac7af74f3eea4c09b5520d9025d92a68",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://modelarts.eu-de.otc.t-systems.com/v2/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "4a8478cfc3344a689c5205802ce7f33b",
+                    "name": "modelarts",
+                    "type": "modelartsv2"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "33e41106fd5f45b1b2c8385641056240",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dcaas.eu-de.otc.t-systems.com/v2.0"
+                        }
+                    ],
+                    "id": "838fc84a2f17440fad58c8afe732829b",
+                    "name": "direct-connect",
+                    "type": "dcaas"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "4f3657a7ead74258a3c084cbe069ba42",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://ecs.eu-de.otc.t-systems.com/v2.1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "b7f2a5b1a019459cb956e43a8cb41e31",
+                    "name": "nova",
+                    "type": "compute"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "fb048f20ebe24bcfadd1fdf3f3233bdb",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://vbs.eu-de.otc.t-systems.com/v2/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "7c9bb62294754bbab20075fa3013f6d4",
+                    "name": "vbsv2",
+                    "type": "vbsv2"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "52530888eab74e33bdc8fcd7c5f56283",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://sfs.eu-de.otc.t-systems.com/v2/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "0d4d4f2bdff94e88872e13b95522330e",
+                    "name": "manilav2",
+                    "type": "sharev2"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "8597fe8b1059433caf596b97b3eb314a",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://deh.eu-de.otc.t-systems.com/v1.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "931b440ee0dc465daa213852b7f2560f",
+                    "name": "deh",
+                    "type": "deh"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "1dc3f5d1e8724d33b89b63a11359a1f3",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://cts.eu-de.otc.t-systems.com/v1.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "7a924763ac3d4c52975ff6ee1d57b81a",
+                    "name": "cts",
+                    "type": "cts"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "f4be859c14914a4ea9213f60114b221c",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://iam.eu-de.otc.t-systems.com/v3"
+                        },
+                        {
+                            "id": "2df96872ffd84d4a84c29967739ae3fd",
+                            "interface": "public",
+                            "region": "*",
+                            "region_id": "*",
+                            "url": "https://iam.eu-de.otc.t-systems.com/v3"
+                        }
+                    ],
+                    "id": "45a401041b6547f79b976e2d0727c52b",
+                    "name": "keystone",
+                    "type": "identity"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "c797ee4caeba48f7b69b8637263a4b74",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://kms.eu-de.otc.t-systems.com/v1.0/"
+                        }
+                    ],
+                    "id": "51b2c52dd9ec41febe6420d0938aaec5",
+                    "name": "key-management",
+                    "type": "kms"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "aea68b97168e4a0e8b7021fa84bfb6f8",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://vpc.eu-de.otc.t-systems.com/v2.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "508f451d620f49559b8d265e1d3414c6",
+                    "name": "vpc2.0",
+                    "type": "vpc2.0"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "8862699a760e4d7388c31c62b94db440",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://antiddos.eu-de.otc.t-systems.com/v1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "fd90d9531a914c9a9221dd19f5bd51b0",
+                    "name": "anti-ddos",
+                    "type": "antiddos"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "41ac39ca57fa4386bf4a4dc8fc8dd4cb",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://ces.eu-de.otc.t-systems.com/V1.0/"
+                        }
+                    ],
+                    "id": "7fd1b40b0aa041c08dee0020c5a2d50a",
+                    "name": "cloudeye",
+                    "type": "ces"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "f0f93869dc8c44bd86781b03d7ccb153",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://elb.eu-de.otc.t-systems.com/v1.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "efcdc4928b0640c48b1e130a9f418c9c",
+                    "name": "elbv1",
+                    "type": "elbv1"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "ef08403bf0534019962624bd3d31f7fe",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://vpcep.eu-de.otc.t-systems.com/v1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "4d4720b7e4834739a1b8af6ff16f4e75",
+                    "name": "vpcep",
+                    "type": "vpcep"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "c92b3f63f4fd4d95be526ebf1a80ead3",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://bms.eu-de.otc.t-systems.com/v1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "66be4a54f91e4583b9d639d6d5d4d191",
+                    "name": "bms",
+                    "type": "bms"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "4517ce20076646b89be76a48a2255d4e",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://kms.eu-de.otc.t-systems.com/v1.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "2c7f1c1a5a3f4267bfd301b593f3daae",
+                    "name": "kmsv1",
+                    "type": "kmsv1"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "78b8f6817db64ccc8073279fdecb89bd",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://ces.eu-de.otc.t-systems.com/V1.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "d72f4d81d6e9474b821f34c33b66706a",
+                    "name": "cesv1",
+                    "type": "cesv1"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "74337eb573344771aad9b5a5ef285c09",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://vpc.eu-de.otc.t-systems.com/v1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "f177def1baa44ed19f34d25f5c77cd34",
+                    "name": "vpc",
+                    "type": "vpc"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "ca7b1cb6878f4a26a0446b7d7ccd5506",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://smn.eu-de.otc.t-systems.com/v2/"
+                        }
+                    ],
+                    "id": "33f5635b02324436848c3350bb05b3e6",
+                    "name": "SimpleMessageNotification",
+                    "type": "smn"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "412828451e1946d7a2a79171fab4e8ef",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://rds.eu-de.otc.t-systems.com/v3/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "99918fccb53a465798ff2a8c1ce5fa67",
+                    "name": "rdsv3",
+                    "type": "rdsv3"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "fc7a3989f18c4cfaac74abd7d890fefe",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://obs.eu-de.otc.t-systems.com"
+                        }
+                    ],
+                    "id": "51277de7b1b34c7d8edad30bd81ab5f1",
+                    "name": "objectstorage",
+                    "type": "object"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "62ce7ad8991d412aaac2aa0489185d75",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://mrs.eu-de.otc.t-systems.com/v1.1"
+                        }
+                    ],
+                    "id": "9ef2f792a4aa4f038a1d2a07d552483a",
+                    "name": "mapreduce",
+                    "type": "mrs"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "f54a19af702843fcbc8d6e23e214dd69",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://rds.eu-de.otc.t-systems.com/v1.0"
+                        }
+                    ],
+                    "id": "0e535c30b96e49b19f9098cb9fd4b368",
+                    "name": "trove",
+                    "type": "database"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "c271920659c0481da20d260350f5545b",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dms.eu-de.otc.t-systems.com/v1.0"
+                        }
+                    ],
+                    "id": "9978936bc0a14813ba57f85d8377ace1",
+                    "name": "distributedmessageservice",
+                    "type": "dms"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "68619165a47a40508809de7e298faa30",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://modelarts.eu-de.otc.t-systems.com/v1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "c846f8b1ae88462d99c6e9e34dc5519b",
+                    "name": "modelarts",
+                    "type": "modelartsv1"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "9367705cc05742208c7a21c90e7e4f60",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dms.eu-de.otc.t-systems.com/v2/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "21f61f13061a41e29c187f87fba0a3b7",
+                    "name": "dmsv2",
+                    "type": "dmsv2"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "1c26054c2c434409a4d285fef5a729c5",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://cce.eu-de.otc.t-systems.com"
+                        }
+                    ],
+                    "id": "0ee6a30469c947aebb19fe4b446c3644",
+                    "name": "ccev2.0",
+                    "type": "ccev2.0"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "655849fb14d944b6b940824fc99a26de",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://cts.eu-de.otc.t-systems.com/v2.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "7444878c18d848a5a3cccd8f98f90b7c",
+                    "name": "ctsv2",
+                    "type": "ctsv2"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "2bbfa8fc6ea246eb8556d2e2525c46d8",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://rts.eu-de.otc.t-systems.com/v1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "233635b49a5b4ba48f6615f84ffc6694",
+                    "name": "heat",
+                    "type": "orchestration"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "0047a06690484d86afe04877074efddf",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dns.eu-de.otc.t-systems.com"
+                        }
+                    ],
+                    "id": "56cd81db1f8445d98652479afe07c5ba",
+                    "name": "designate",
+                    "type": "dns"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "91e6557513f646c69fe3eb1100b3cc7b",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://waf.eu-de.otc.t-systems.com"
+                        }
+                    ],
+                    "id": "ecb81bb5d15d4abcba7e8aa3d87f6235",
+                    "name": "waf",
+                    "type": "waf"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "6e80010c01f64f9e840b19ed1606befa",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://cbr.eu-de.otc.t-systems.com/v3/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "dcfe8489ea0c4bfc9cde345fbbefd5b4",
+                    "name": "cbr",
+                    "type": "cbr"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "2e5af55430da40ec89c748683f1bccb4",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://mrs.eu-de.otc.t-systems.com/v1.1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "4c207327decb4dac95f15c47a3605f36",
+                    "name": "mrsv1",
+                    "type": "mrsv1"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "c097d8ea9064465296461205bdaf26d1",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://evs.eu-de.otc.t-systems.com/v2/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "0c69eafe914149d487fb7475ed0287c5",
+                    "name": "cinderv2",
+                    "type": "volumev2"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "9d53edaf9e204bbea29c436e0c725933",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://rds.eu-de.otc.t-systems.com/rds/v1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "53d86c9dd35245d9850cedd34f8c7edc",
+                    "name": "rdsv1",
+                    "type": "rdsv1"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "ee2841360821491a9074f70c23aa3f62",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://css.eu-de.otc.t-systems.com/v1.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "85c04ec8ade54221b6c150620a70ddb9",
+                    "name": "css",
+                    "type": "css"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "c2a8b2db595d4ff7b4637f6abb32a899",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://as.eu-de.otc.t-systems.com/autoscaling-api/v1/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "fe9a5486dd6843728fd1a6767f7e9967",
+                    "name": "asv1",
+                    "type": "asv1"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "73702f027c994bbabda6d18755efb3bd",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dis.eu-de.otc.t-systems.com/v2/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "289b6a2d2d50435dac63a20954db554e",
+                    "name": "disv2",
+                    "type": "disv2"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "22e073c62e6f412cac0297f22cb0eb6f",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://evs.eu-de.otc.t-systems.com/v2/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "cb195887b01349d0b3e361db478f458e",
+                    "name": "evs",
+                    "type": "evs"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "9624e5f4dd5f4309a18a8062702786c7",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://vbs.eu-de.otc.t-systems.com/v2/"
+                        }
+                    ],
+                    "id": "f48ebde6bb6a4e43b5ec914eae78e77b",
+                    "name": "volume-backup",
+                    "type": "vbs"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "fd24445c934b4687acb0d8a47b5e136c",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://evs.eu-de.otc.t-systems.com/v2/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "ac97a488327b43d19f50fd0afee67c33",
+                    "name": "cinder",
+                    "type": "volume"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "cc2a08206ac8447e9517551142215bb1",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://smn.eu-de.otc.t-systems.com/v2/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "d9856847bd2c4e50a878ab7c8e183b58",
+                    "name": "smnv2",
+                    "type": "smnv2"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "64d30135a5fa4054bd7c2eaafce1743c",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dms.eu-de.otc.t-systems.com/v1.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "d0cab6a75f114541b6c635e251de4324",
+                    "name": "dmsv1",
+                    "type": "dmsv1"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "c78833f16e604b4f9779b1bd0a5270ce",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://rds.eu-de.otc.t-systems.com/rds/v1"
+                        }
+                    ],
+                    "id": "f5508175271042759f4f979bb274bd8b",
+                    "name": "relationaldatabase",
+                    "type": "rds"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "6fa001df79ad4e2aadf865014be7c2a0",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://lts.eu-de.otc.t-systems.com/v2/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "a151f6be46264e0c924e99ebd2f7705d",
+                    "name": "ltsv2",
+                    "type": "ltsv2"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "bd5bdaf3afbb487db25cbff46d3ea3a4",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://workspace.eu-de.otc.t-systems.com/v1.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "9af8c1bfaa7b4973a733b233be509f6a",
+                    "name": "workspace",
+                    "type": "workspace"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "18187aeed8de4ce690f1140540097a9f",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://dws.eu-de.otc.t-systems.com"
+                        }
+                    ],
+                    "id": "b5631c5444ae4d83a56175084333ad6f",
+                    "name": "datawarehouseservice",
+                    "type": "dws"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "12083f0bf1f14c09937c9111508d738d",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://as.eu-de.otc.t-systems.com/autoscaling-api/v1"
+                        }
+                    ],
+                    "id": "4d06a55b120640eabe9d1b8a706cd9b6",
+                    "name": "autoscaling",
+                    "type": "as"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "68f70ac830fd4e4e9e83caea260f46ec",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://tms.eu-de.otc.t-systems.com/v1.0"
+                        }
+                    ],
+                    "id": "a5149bea8d664191a0fe1c7eaa886706",
+                    "name": "tag-management",
+                    "type": "tms"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "480c81f968e841b8bfac3d7a1c46a589",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://swift.eu-de.otc.t-systems.com/v1/AUTH_05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "b2a2507faf154effae7d8183afa493b3",
+                    "name": "swift",
+                    "type": "object-store"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "c945c929a57c4dc3b49b6d9c238687ab",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://workspace.eu-de.otc.t-systems.com/v1.0/05b14b6bb33f492789032873d937e2b5"
+                        }
+                    ],
+                    "id": "272d59f7d1934e2f9b2d065149122fff",
+                    "name": "Workspace",
+                    "type": "wks"
+                },
+                {
+                    "endpoints": [
+                        {
+                            "id": "a3134e8d73e9429599460b4195e64617",
+                            "interface": "public",
+                            "region": "eu-de",
+                            "region_id": "eu-de",
+                            "url": "https://elb.eu-de.otc.t-systems.com/v1.0"
+                        }
+                    ],
+                    "id": "d06b35e9eea0408b83581bcd3e3f7f2b",
+                    "name": "loadbalance",
+                    "type": "elb"
+                }
+            ],
+            "expires_at": "2023-07-08T09:10:52.158000Z",
+            "issued_at": "2023-07-07T09:10:52.158000Z",
+            "methods": [
+                "password"
+            ],
+            "project": {
+                "domain": {
+                    "id": "8b1a8e0233894cdebcd24149706b0be8",
+                    "name": "OTC00000000001000000199",
+                    "xdomain_id": "00000000001000000199",
+                    "xdomain_type": "TSI"
+                },
+                "id": "05b14b6bb33f492789032873d937e2b5",
+                "name": "eu-de"
+            },
+            "roles": [
+                {
+                    "id": "0",
+                    "name": "te_agency"
+                },
+                {
+                    "id": "0",
+                    "name": "te_admin"
+                },
+                {
+                    "id": "0",
+                    "name": "op_gated_cce_switch"
+                },
+                {
+                    "id": "0",
+                    "name": "op_gated_multi_bind"
+                },
+                {
+                    "id": "0",
+                    "name": "op_gated_eps"
+                },
+                {
+                    "id": "0",
+                    "name": "op_gated_traurus_mcs"
+                }
+            ],
+            "user": {
+                "domain": {
+                    "id": "8b1a8e0233894cdebcd24149706b0be8",
+                    "name": "OTC00000000001000000199",
+                    "xdomain_id": "00000000001000000199",
+                    "xdomain_type": "TSI"
+                },
+                "id": "1cc56ebbfcf64468a9467d5dad13d470",
+                "name": "Daniel Benchant",
+                "password_expires_at": "2023-08-15T07:53:19.000000Z"
+            }
+        }
+    },
+    "msg": "OK (19645 bytes)",
+    "pragma": "no-cache",
+    "redirected": false,
+    "server": "CloudWAF",
+    "set_cookie": "CLOUDWAFSESID=b9ac47cb4d5a935b9e; path=/, CLOUDWAFSESTIME=1688721050573; path=/",
+    "status": 201,
+    "strict_transport_security": "max-age=31536000; includeSubdomains;",
+    "url": "https://iam.eu-de.otc.t-systems.com/v3/auth/tokens",
+    "x_content_type_options": "nosniff",
+    "x_download_options": "noopen",
+    "x_frame_options": "SAMEORIGIN",
+    "x_iam_trace_id": "token_global_null_6c1f2ad3e7e6f0f7fcda180228236666",
+    "x_request_id": "20d79396314fff98fcc36599bbc397b7",
+    "x_subject_token": "MIIFzAYJKoZIhvcNAQcCoIIFvTCCBbkCAQExDTALBglghkgBZQMEAgEwggNRBgkqhkiG9w0BBwGgggNCBIIDPnsidG9rZW4iOnsiZXhwaXJlc19hdCI6IjIwMjMtMDctMDhUMDk6MTA6NTIuMTU4MDAwWiIsIm1ldGhvZHMiOlsicGFzc3dvcmQiXSwiY2F0YWxvZyI6W10sInJvbGVzIjpbeyJuYW1lIjoidGVfYWdlbmN5IiwiaWQiOiIwIn0seyJuYW1lIjoidGVfYWRtaW4iLCJpZCI6IjAifSx7Im5hbWUiOiJvcF9nYXRlZF9jY2Vfc3dpdGNoIiwiaWQiOiIwIn0seyJuYW1lIjoib3BfZ2F0ZWRfbXVsdGlfYmluZCIsImlkIjoiMCJ9LHsibmFtZSI6Im9wX2dhdGVkX2VwcyIsImlkIjoiMCJ9LHsibmFtZSI6Im9wX2dhdGVkX3RyYXVydXNfbWNzIiwiaWQiOiIwIn1dLCJwcm9qZWN0Ijp7ImRvbWFpbiI6eyJ4ZG9tYWluX3R5cGUiOiJUU0kiLCJuYW1lIjoiT1RDMDAwMDAwMDAwMDEwMDAwMDAxOTkiLCJpZCI6IjhiMWE4ZTAyMzM4OTRjZGViY2QyNDE0OTcwNmIwYmU4IiwieGRvbWFpbl9pZCI6IjAwMDAwMDAwMDAxMDAwMDAwMTk5In0sIm5hbWUiOiJldS1kZSIsImlkIjoiMDViMTRiNmJiMzNmNDkyNzg5MDMyODczZDkzN2UyYjUifSwiaXNzdWVkX2F0IjoiMjAyMy0wNy0wN1QwOToxMDo1Mi4xNTgwMDBaIiwidXNlciI6eyJkb21haW4iOnsieGRvbWFpbl90eXBlIjoiVFNJIiwibmFtZSI6Ik9UQzAwMDAwMDAwMDAxMDAwMDAwMTk5IiwiaWQiOiI4YjFhOGUwMjMzODk0Y2RlYmNkMjQxNDk3MDZiMGJlOCIsInhkb21haW5faWQiOiIwMDAwMDAwMDAwMTAwMDAwMDE5OSJ9LCJuYW1lIjoiRGFuaWVsIEJlbmNoYW50IiwicGFzc3dvcmRfZXhwaXJlc19hdCI6IjIwMjMtMDgtMTVUMDc6NTM6MTkuMDAwMDAwWiIsImlkIjoiMWNjNTZlYmJmY2Y2NDQ2OGE5NDY3ZDVkYWQxM2Q0NzAifX19MYICTjCCAkoCAQEwgaQwgZYxCzAJBgNVBAYTAkRFMQwwCgYDVQQIDANOUlcxDTALBgNVBAcMBEJvbm4xHDAaBgNVBAoME0RldXRzY2hlIFRlbGVrb20gQUcxNzA1BgNVBAsMLlQtU3lzdGVtcyBQVSBQdWJsaWMgQ2xvdWQgLSBPcGVuIFRlbGVrb20gQ2xvdWQxEzARBgNVBAMMCmNhLmlhbS5wa2kCCQCLQ2VQuLPaIjALBglghkgBZQMEAgEwDQYJKoZIhvcNAQEBBQAEggGAqDMqSD-aFkMWvzubTOyfrJXiakG96oJMaMpOGXnez4BmF4WqHhWU2jKve7MxuIY28FhR6+wlq1pBl9JQ1y6N-2EDZaDpwt9H5N6j00nb6Ohzy2domEOZ6MQHsMXc+AAX6QjGlsxEqF0dxNTuRIMEAn5CeCrRwSnyqY0DfvufhZ4aFbEWpZZkHTxxQAu96CIL9CNgY7RFGmJm0NtdgNVpDgK2heem0V7b6iGv6g3s6yVc98fTEUqWCykqu3LJitCPDnpjxeKyCJNnvyJ1r7Y3ac4yHASceiagp9ZPAAKLtxJoP8jRXFaBNY6R1cxZyiJJuDhxA0p+NIDW+v2pBS0bBrjs6w+q6-RkR6ePIdRguJ8LvM2GhTkmYaKl-KPVXtAIwVZ9SGXoFZDUsF8VzxT9kVzUwB-GzzeL6dxg563jR3WCjVW1ciOd+w6BzHpEkfigtxELiSXUhZ7Y9Ed5XsecyCMOGDRRqtzey7mWrTx-+IXvV4pZ3N+9BJ+tOb4FQsIm",
+    "x_xss_protection": "1; mode=block;"
+}

@@ -1,0 +1,22 @@
+/binary/jdk-17/bin/java -XX:MaxRAMPercentage=85.0 -jar /binary/benchbase/postgresql/benchbase.jar -c /binary/benchbase/postgresql/config/postgres/sample_tatp_config.xml -b tatp --load=true --create=true --sample 40 --interval-monitor 1000 --directory /home/developer/results
+[INFO ] 2023-07-04 09:47:33,129 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+
+Benchmark:              TATP {com.oltpbenchmark.benchmarks.tatp.TATPBenchmark}
+Configuration:          /binary/benchbase/postgresql/config/postgres/sample_tatp_config.xml
+Type:                   POSTGRES
+Driver:                 org.postgresql.Driver
+URL:                    jdbc:postgresql://10.0.195.192:5432/benchdb?sslmode=disable&ApplicationName=tatp&reWriteBatchedInserts=true
+Isolation:              TRANSACTION_SERIALIZABLE
+Batch Size:             1024
+Scale Factor:           50.0
+Terminals:              140
+New Connection Per Txn: false
+
+[INFO ] 2023-07-04 09:47:33,131 [main]  com.oltpbenchmark.DBWorkload main - ======================================================================
+[INFO ] 2023-07-04 09:47:33,162 [main]  com.oltpbenchmark.DBWorkload main - Creating new TATP database...
+[INFO ] 2023-07-04 09:47:33,389 [main]  com.oltpbenchmark.DBWorkload main - Finished creating new TATP database...
+[INFO ] 2023-07-04 09:47:33,482 [main]  com.oltpbenchmark.DBWorkload main - Loading data into TATP database...
+[INFO ] 2023-07-04 09:47:33,484 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Creating a Thread Pool with a size of 32 to run 34 Loader Threads.  2 threads will be queued.
+[INFO ] 2023-07-04 09:56:05,156 [main]  com.oltpbenchmark.util.ThreadUtil runLoaderThreads - Finished executing 34 Loader Threads [time=511.67s]
+[INFO ] 2023-07-04 09:56:05,157 [main]  com.oltpbenchmark.DBWorkload main - Finished loading data into TATP database...
+[INFO ] 2023-07-04 09:56:05,157 [main]  com.oltpbenchmark.DBWorkload main - Skipping benchmark workload execution
