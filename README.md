@@ -1,7 +1,7 @@
 # PostgreSQL DBaaS Market Comparison: AWS RDS for PostgreSQL - MS Azure Database for PostgreSQL Flexible Server - OTC RDS PostgreSQL 
 
 This repository contain the raw performance data and metadata of the associated PostgreSQL DBaaS market comparison [Open Telekom Cloud PostgreSQL DBaaS:
-A Shining Star](TODO) on comparing the performance and price-performance of AWS RDS for PostgreSQL, MS Azure Database for PostgreSQL - Flexible Server and OTC RDS PostgreSQL. For more details on the method and the benchmark objectives please refer to the associated article. 
+A Shining Star](TODO) on comparing the performance and price-performance of AWS RDS for PostgreSQL, MS Azure Database for PostgreSQL - Flexible Server and OTC RDS PostgreSQL. For more details on the method and the benchmark objectives please refer to the [associated article](https://benchant.com/insights/otc-postgresql-shining-star). 
 
 The performance comparison is based on the following three [BenchBase](https://github.com/cmu-db/benchbase) workloads:
 1. analytics: TPC-H
